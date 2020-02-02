@@ -107,7 +107,7 @@ const index = () => {
         >
           among top 10% in StackOverflow
         </a>
-        ), NodeJS/ExpressJS, Ruby on Rails, MongoDB and MySQL.
+        ), NodeJS/ ExpressJS, Ruby on Rails, MongoDB and MySQL.
       </h2>
       <p style={{ fontSize: "1.2em" }}>
         I'm fascinated about new technologies, and love to add them to my
@@ -115,7 +115,7 @@ const index = () => {
         projects that I'm working on.{" "}
       </p>
       <p style={{ fontSize: "1.3em" }}>
-        I also have some experience because of this habit, with{" "}
+        I also have some experience because of this habit with{" "}
         <ReactRotatingText
           items={[
             "Lambda Functions",

@@ -396,7 +396,7 @@ const index = () => {
       lineNumber: 103
     },
     __self: undefined
-  }, "among top 10% in StackOverflow"), "), NodeJS/ExpressJS, Ruby on Rails, MongoDB and MySQL."), __jsx("p", {
+  }, "among top 10% in StackOverflow"), "), NodeJS/ ExpressJS, Ruby on Rails, MongoDB and MySQL."), __jsx("p", {
     style: {
       fontSize: "1.2em"
     },
@@ -414,7 +414,7 @@ const index = () => {
       lineNumber: 117
     },
     __self: undefined
-  }, "I also have some experience because of this habit, with", " ", __jsx(react_rotating_text__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "I also have some experience because of this habit with", " ", __jsx(react_rotating_text__WEBPACK_IMPORTED_MODULE_1___default.a, {
     items: ["Lambda Functions", "VueJS", "PHP", "Bash", "Firebase", "AWS API Gateway", "Heroku", "Netlify", "Apache Server", "Nginx", "DNS Management", "Gatsby", "NextJS"],
     __source: {
       fileName: _jsxFileName,
