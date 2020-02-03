@@ -45,7 +45,11 @@ const index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faTwitter} /> @UtmostDev
+            <FontAwesomeIcon
+              style={{ fontSize: "1em", marginRight: "5px" }}
+              icon={faTwitter}
+            />{" "}
+            @UtmostDev
           </a>
         </div>
         <div>
@@ -54,7 +58,11 @@ const index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} /> danivijay
+            <FontAwesomeIcon
+              style={{ fontSize: "1em", marginRight: "5px" }}
+              icon={faLinkedin}
+            />{" "}
+            danivijay
           </a>
         </div>
         <div>
@@ -63,7 +71,11 @@ const index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faStackOverflow} /> Dani Vijay
+            <FontAwesomeIcon
+              style={{ fontSize: "1em", marginRight: "5px" }}
+              icon={faStackOverflow}
+            />{" "}
+            Dani Vijay
           </a>
         </div>
         <div>
@@ -72,7 +84,11 @@ const index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} /> danivijay
+            <FontAwesomeIcon
+              style={{ fontSize: "1em", marginRight: "5px" }}
+              icon={faGithub}
+            />{" "}
+            danivijay
           </a>
         </div>
         <div>
@@ -81,7 +97,11 @@ const index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faDev} /> @danivijay
+            <FontAwesomeIcon
+              style={{ fontSize: "1em", marginRight: "5px" }}
+              icon={faDev}
+            />{" "}
+            @danivijay
           </a>
         </div>
         <div>
@@ -90,12 +110,17 @@ const index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faMedium} /> @danivijay
+            <FontAwesomeIcon
+              style={{ fontSize: "1em", marginRight: "5px" }}
+              icon={faMedium}
+            />{" "}
+            @danivijay
           </a>
         </div>
       </div>
       <p style={{ fontSize: "1.5em" }}>
-        Your friendly neighborhood Full Stack Web Developer.
+        Your friendly neighborhood <wbr />
+        Full Stack Web Developer.
       </p>
       <p></p>
       <h2 style={{ fontWeight: "500" }}>
@@ -115,7 +140,7 @@ const index = () => {
         projects that I'm working on.{" "}
       </p>
       <p style={{ fontSize: "1.3em" }}>
-        I also have some experience because of this habit with{" "}
+        I also have some experience with{" "}
         <ReactRotatingText
           items={[
             "Lambda Functions",

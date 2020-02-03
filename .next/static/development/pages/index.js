@@ -8637,16 +8637,20 @@ var index = function index() {
     },
     __self: this
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+    style: {
+      fontSize: "1em",
+      marginRight: "5px"
+    },
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faTwitter"],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
     },
     __self: this
-  }), " @UtmostDev")), __jsx("div", {
+  }), " ", "@UtmostDev")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 55
     },
     __self: this
   }, __jsx("a", {
@@ -8655,20 +8659,24 @@ var index = function index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 56
     },
     __self: this
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+    style: {
+      fontSize: "1em",
+      marginRight: "5px"
+    },
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faLinkedin"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 61
     },
     __self: this
-  }), " danivijay")), __jsx("div", {
+  }), " ", "danivijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 68
     },
     __self: this
   }, __jsx("a", {
@@ -8677,20 +8685,24 @@ var index = function index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 69
     },
     __self: this
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+    style: {
+      fontSize: "1em",
+      marginRight: "5px"
+    },
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faStackOverflow"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 74
     },
     __self: this
-  }), " Dani Vijay")), __jsx("div", {
+  }), " ", "Dani Vijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 81
     },
     __self: this
   }, __jsx("a", {
@@ -8699,20 +8711,24 @@ var index = function index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 82
     },
     __self: this
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+    style: {
+      fontSize: "1em",
+      marginRight: "5px"
+    },
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faGithub"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 87
     },
     __self: this
-  }), " danivijay")), __jsx("div", {
+  }), " ", "danivijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 94
     },
     __self: this
   }, __jsx("a", {
@@ -8721,20 +8737,24 @@ var index = function index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 95
     },
     __self: this
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+    style: {
+      fontSize: "1em",
+      marginRight: "5px"
+    },
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faDev"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 100
     },
     __self: this
-  }), " @danivijay")), __jsx("div", {
+  }), " ", "@danivijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 107
     },
     __self: this
   }, __jsx("a", {
@@ -8743,29 +8763,39 @@ var index = function index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 108
     },
     __self: this
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+    style: {
+      fontSize: "1em",
+      marginRight: "5px"
+    },
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faMedium"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 113
     },
     __self: this
-  }), " @danivijay"))), __jsx("p", {
+  }), " ", "@danivijay"))), __jsx("p", {
     style: {
       fontSize: "1.5em"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 121
     },
     __self: this
-  }, "Your friendly neighborhood Full Stack Web Developer."), __jsx("p", {
+  }, "Your friendly neighborhood ", __jsx("wbr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 122
+    },
+    __self: this
+  }), "Full Stack Web Developer."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125
     },
     __self: this
   }), __jsx("h2", {
@@ -8774,7 +8804,7 @@ var index = function index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 126
     },
     __self: this
   }, "I've extensive work experience with ReactJS (", __jsx("a", {
@@ -8783,7 +8813,7 @@ var index = function index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 128
     },
     __self: this
   }, "among top 10% in StackOverflow"), "), NodeJS/ ExpressJS, Ruby on Rails, MongoDB and MySQL."), __jsx("p", {
@@ -8792,7 +8822,7 @@ var index = function index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 137
     },
     __self: this
   }, "I'm fascinated about new technologies, and love to add them to my arsenal for timely disposal. More than happy to learn stuff to improve projects that I'm working on.", " "), __jsx("p", {
@@ -8801,14 +8831,14 @@ var index = function index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 142
     },
     __self: this
-  }, "I also have some experience because of this habit with", " ", __jsx(react_rotating_text__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "I also have some experience with", " ", __jsx(react_rotating_text__WEBPACK_IMPORTED_MODULE_1___default.a, {
     items: ["Lambda Functions", "VueJS", "PHP", "Bash", "Firebase", "AWS API Gateway", "Heroku", "Netlify", "Apache Server", "Nginx", "DNS Management", "Gatsby", "NextJS"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 144
     },
     __self: this
   })));
@@ -8818,7 +8848,7 @@ var index = function index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdanivijay%2FDocuments%2Fwebclub%2Fdanivijay-com%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************************************/
@@ -8841,5 +8871,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
