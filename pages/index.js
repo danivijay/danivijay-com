@@ -152,9 +152,9 @@ const index = () => {
             "AWS API Gateway",
             "Heroku",
             "Netlify",
+            "Zeit Now",
             "Gatsby",
-            "NextJS",
-            "Nginx"
+            "NextJS"
           ]}
         />
       </p>
