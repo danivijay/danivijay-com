@@ -139,23 +139,22 @@ const index = () => {
         arsenal for timely disposal. More than happy to learn stuff to improve
         projects that I'm working on.{" "}
       </p>
-      <p style={{ fontSize: "1.3em" }}>
-        I also have some experience with{" "}
+      <p style={{ fontSize: "1.2em" }}>
+        I've also worked with{" "}
         <ReactRotatingText
           items={[
             "Lambda Functions",
             "VueJS",
+            "Python",
             "PHP",
             "Bash",
             "Firebase",
             "AWS API Gateway",
             "Heroku",
             "Netlify",
-            "Apache Server",
-            "Nginx",
-            "DNS Management",
             "Gatsby",
-            "NextJS"
+            "NextJS",
+            "Nginx"
           ]}
         />
       </p>
