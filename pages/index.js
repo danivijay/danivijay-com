@@ -146,6 +146,7 @@ const index = () => {
             "Lambda Functions",
             "VueJS",
             "Python",
+            "Pandas",
             "PHP",
             "Bash",
             "Firebase",
