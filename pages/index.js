@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import ReactRotatingText from "react-rotating-text";
 import Container from "../components/Container";
+import BlogPosts from "../components/BlogPosts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -159,6 +160,7 @@ const index = () => {
           ]}
         />
       </p>
+      <BlogPosts />
     </Container>
   );
 };
