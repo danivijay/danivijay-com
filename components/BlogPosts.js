@@ -63,14 +63,26 @@ const BlogPosts = () => {
   return (
     <div>
       <hr />
-      <h2>Blog Posts</h2>
+      <h2>Blog</h2>
       <div style={{ marginBottom: "10px" }}>
-        I'm an occasional writer (mostly for self reference to be honest, don't
-        tell anyone!). Few scribbles are public.
+        I'm an occasional writer. Authored for publications like{" "}
+        <a
+          href="https://medium.com/swlh"
+          target="_blank"
+          rel="nofollow noopener"
+        >
+          The Startup
+        </a>{" "}
+        and{" "}
+        <a href="https://codeburst.io/" target="_blank" rel="nofollow noopener">
+          Codeburst.io
+        </a>{" "}
+        in the past. Not gonna lie, nowadays mostly I writes for self reference.
+        Here are few public scribbles.
       </div>
       {blogPosts.map(({ title, url }) => (
-        <div className="blog-posts">
-          <a href={url} target="_blank" rel="nofollow noopener" key={url}>
+        <div className="blog-posts" key={url}>
+          <a href={url} target="_blank" rel="nofollow noopener">
             {title}
           </a>
         </div>

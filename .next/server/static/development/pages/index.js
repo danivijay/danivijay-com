@@ -161,7 +161,7 @@ const BlogPosts = () => {
       lineNumber: 66
     },
     __self: undefined
-  }, "Blog Posts"), __jsx("div", {
+  }, "Blog"), __jsx("div", {
     style: {
       marginBottom: "10px"
     },
@@ -170,24 +170,42 @@ const BlogPosts = () => {
       lineNumber: 67
     },
     __self: undefined
-  }, "I'm an occasional writer (mostly for self reference to be honest, don't tell anyone!). Few scribbles are public."), blogPosts.map(({
+  }, "I'm an occasional writer. Authored for publications like", " ", __jsx("a", {
+    href: "https://medium.com/swlh",
+    target: "_blank",
+    rel: "nofollow noopener",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: undefined
+  }, "The Startup"), " ", "and", " ", __jsx("a", {
+    href: "https://codeburst.io/",
+    target: "_blank",
+    rel: "nofollow noopener",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: undefined
+  }, "Codeburst.io"), " ", "in the past. Not gonna lie, nowadays mostly I writes for self reference. Here are few public scribbles."), blogPosts.map(({
     title,
     url
   }) => __jsx("div", {
     className: "blog-posts",
+    key: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 84
     },
     __self: undefined
   }, __jsx("a", {
     href: url,
     target: "_blank",
     rel: "nofollow noopener",
-    key: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 85
     },
     __self: undefined
   }, title))));
@@ -254,8 +272,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "@fortawesome/free-brands-svg-icons");
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/Users/danivijay/Documents/webclub/danivijay-com/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -271,7 +292,7 @@ const SocialLink = ({
 }) => __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 17
   },
   __self: undefined
 }, " ", __jsx("a", {
@@ -280,13 +301,13 @@ const SocialLink = ({
   rel: "noopener noreferrer",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 19
   },
   __self: undefined
 }, text), (handler || subText) && __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
 }, " ", "(", handler && __jsx("a", {
@@ -295,7 +316,7 @@ const SocialLink = ({
   rel: "noopener noreferrer",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 27
   },
   __self: undefined
 }, handler), handler && subText && " - ", subText, ")"));
@@ -304,17 +325,45 @@ const index = () => {
   return __jsx(_components_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: undefined
-  }, __jsx("p", {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: undefined
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: undefined
+  }, "Dani Vijay | Full Stack Web Developer"), __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: undefined
+  }), __jsx("meta", {
+    name: "description",
+    content: "Polyglot programmer with extensive experience in JavaScript based technologies.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: undefined
+  })), __jsx("p", {
     style: {
       fontSize: "2em",
       marginBottom: "0"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 50
     },
     __self: undefined
   }, "Hi,"), __jsx("h1", {
@@ -324,7 +373,7 @@ const index = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 51
     },
     __self: undefined
   }, "I'm Dani Vijay."), __jsx("div", {
@@ -334,13 +383,13 @@ const index = () => {
     className: "social-links",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 52
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 53
     },
     __self: undefined
   }, __jsx("a", {
@@ -349,7 +398,7 @@ const index = () => {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 54
     },
     __self: undefined
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -360,13 +409,13 @@ const index = () => {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faTwitter"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 59
     },
     __self: undefined
   }), " ", "@UtmostDev")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 66
     },
     __self: undefined
   }, __jsx("a", {
@@ -375,7 +424,7 @@ const index = () => {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 67
     },
     __self: undefined
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -386,13 +435,13 @@ const index = () => {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faLinkedin"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 72
     },
     __self: undefined
   }), " ", "danivijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 79
     },
     __self: undefined
   }, __jsx("a", {
@@ -401,7 +450,7 @@ const index = () => {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 80
     },
     __self: undefined
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -412,13 +461,13 @@ const index = () => {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faStackOverflow"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 85
     },
     __self: undefined
   }), " ", "Dani Vijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 92
     },
     __self: undefined
   }, __jsx("a", {
@@ -427,7 +476,7 @@ const index = () => {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 93
     },
     __self: undefined
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -438,13 +487,13 @@ const index = () => {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faGithub"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 98
     },
     __self: undefined
   }), " ", "danivijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 105
     },
     __self: undefined
   }, __jsx("a", {
@@ -453,7 +502,7 @@ const index = () => {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 106
     },
     __self: undefined
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -464,13 +513,13 @@ const index = () => {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faDev"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 111
     },
     __self: undefined
   }), " ", "@danivijay")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 118
     },
     __self: undefined
   }, __jsx("a", {
@@ -479,7 +528,7 @@ const index = () => {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 119
     },
     __self: undefined
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -490,7 +539,7 @@ const index = () => {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faMedium"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 124
     },
     __self: undefined
   }), " ", "@danivijay"))), __jsx("p", {
@@ -499,19 +548,19 @@ const index = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 132
     },
     __self: undefined
   }, "Your friendly neighborhood ", __jsx("wbr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 133
     },
     __self: undefined
   }), "Full Stack Web Developer."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 136
     },
     __self: undefined
   }), __jsx("h2", {
@@ -520,7 +569,7 @@ const index = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 137
     },
     __self: undefined
   }, "I've extensive work experience with ReactJS (", __jsx("a", {
@@ -529,7 +578,7 @@ const index = () => {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 139
     },
     __self: undefined
   }, "among top 10% in StackOverflow"), "), NodeJS/ ExpressJS, Ruby on Rails, MongoDB and MySQL."), __jsx("p", {
@@ -538,7 +587,7 @@ const index = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 148
     },
     __self: undefined
   }, "I'm fascinated about new technologies, and love to add them to my arsenal for timely disposal. More than happy to learn stuff to improve projects that I'm working on.", " "), __jsx("p", {
@@ -547,20 +596,20 @@ const index = () => {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 153
     },
     __self: undefined
   }, "I've also worked with", " ", __jsx(react_rotating_text__WEBPACK_IMPORTED_MODULE_1___default.a, {
     items: ["Lambda Functions", "VueJS", "Python", "Pandas", "PHP", "Bash", "Firebase", "AWS API Gateway", "Heroku", "Netlify", "Zeit Now", "Gatsby", "NextJS"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 155
     },
     __self: undefined
   })), __jsx(_components_BlogPosts__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 173
     },
     __self: undefined
   }));
@@ -601,6 +650,17 @@ module.exports = require("@fortawesome/free-brands-svg-icons");
 /***/ (function(module, exports) {
 
 module.exports = require("@fortawesome/react-fontawesome");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

@@ -11,6 +11,7 @@ import {
   faDev,
   faMedium
 } from "@fortawesome/free-brands-svg-icons";
+import Head from "next/head";
 
 const SocialLink = ({ link, text, handler, subText }) => (
   <Fragment>
@@ -37,6 +38,15 @@ const SocialLink = ({ link, text, handler, subText }) => (
 const index = () => {
   return (
     <Container>
+      <Head>
+        <title>Dani Vijay | Full Stack Web Developer</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        {/* <link rel="shortcut icon" href="/favicon.ico" /> */}
+        <meta
+          name="description"
+          content="Polyglot programmer with extensive experience in JavaScript based technologies."
+        />
+      </Head>
       <p style={{ fontSize: "2em", marginBottom: "0" }}>Hi,</p>
       <h1 style={{ fontSize: "3em", marginTop: "0" }}>I'm Dani Vijay.</h1>
       <div style={{ fontSize: "1.5em" }} className="social-links">
