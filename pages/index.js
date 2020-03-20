@@ -37,141 +37,142 @@ const SocialLink = ({ link, text, handler, subText }) => (
 
 const index = () => {
   return (
-    <Container>
+    <Fragment>
       <Head>
         <title>Dani Vijay | Full Stack Web Developer</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        {/* <link rel="shortcut icon" href="/favicon.ico" /> */}
         <meta
           name="description"
-          content="Polyglot programmer with extensive experience in JavaScript based technologies."
+          content="I'm Dani Vijay. Polyglot programmer with extensive experience in web technologies."
         />
       </Head>
-      <p style={{ fontSize: "2em", marginBottom: "0" }}>Hi,</p>
-      <h1 style={{ fontSize: "3em", marginTop: "0" }}>I'm Dani Vijay.</h1>
-      <div style={{ fontSize: "1.5em" }} className="social-links">
-        <div>
+      <Container>
+        <p style={{ fontSize: "2em", marginBottom: "0" }}>Hi,</p>
+        <h1 style={{ fontSize: "3em", marginTop: "0" }}>I'm Dani Vijay.</h1>
+        <div style={{ fontSize: "1.5em" }} className="social-links">
+          <div>
+            <a
+              href="https://twitter.com/UtmostDev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                style={{ fontSize: "1em", marginRight: "5px" }}
+                icon={faTwitter}
+              />{" "}
+              @UtmostDev
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/danivijay/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                style={{ fontSize: "1em", marginRight: "5px" }}
+                icon={faLinkedin}
+              />{" "}
+              danivijay
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://stackoverflow.com/users/4230220/dani-vijay?tab=profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                style={{ fontSize: "1em", marginRight: "5px" }}
+                icon={faStackOverflow}
+              />{" "}
+              Dani Vijay
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/danivijay"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                style={{ fontSize: "1em", marginRight: "5px" }}
+                icon={faGithub}
+              />{" "}
+              danivijay
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://dev.to/danivijay"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                style={{ fontSize: "1em", marginRight: "5px" }}
+                icon={faDev}
+              />{" "}
+              @danivijay
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://medium.com/@danivijay"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon
+                style={{ fontSize: "1em", marginRight: "5px" }}
+                icon={faMedium}
+              />{" "}
+              @danivijay
+            </a>
+          </div>
+        </div>
+        <p style={{ fontSize: "1.5em" }}>
+          Your friendly neighborhood <wbr />
+          Full Stack Web Developer.
+        </p>
+        <p></p>
+        <h2 style={{ fontWeight: "500" }}>
+          I've extensive work experience with ReactJS (
           <a
-            href="https://twitter.com/UtmostDev"
+            href="https://stackoverflow.com/users/story/4230220?view=Timeline"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon
-              style={{ fontSize: "1em", marginRight: "5px" }}
-              icon={faTwitter}
-            />{" "}
-            @UtmostDev
+            among top 10% in StackOverflow
           </a>
-        </div>
-        <div>
-          <a
-            href="https://www.linkedin.com/in/danivijay/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              style={{ fontSize: "1em", marginRight: "5px" }}
-              icon={faLinkedin}
-            />{" "}
-            danivijay
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://stackoverflow.com/users/4230220/dani-vijay?tab=profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              style={{ fontSize: "1em", marginRight: "5px" }}
-              icon={faStackOverflow}
-            />{" "}
-            Dani Vijay
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://github.com/danivijay"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              style={{ fontSize: "1em", marginRight: "5px" }}
-              icon={faGithub}
-            />{" "}
-            danivijay
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://dev.to/danivijay"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              style={{ fontSize: "1em", marginRight: "5px" }}
-              icon={faDev}
-            />{" "}
-            @danivijay
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://medium.com/@danivijay"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              style={{ fontSize: "1em", marginRight: "5px" }}
-              icon={faMedium}
-            />{" "}
-            @danivijay
-          </a>
-        </div>
-      </div>
-      <p style={{ fontSize: "1.5em" }}>
-        Your friendly neighborhood <wbr />
-        Full Stack Web Developer.
-      </p>
-      <p></p>
-      <h2 style={{ fontWeight: "500" }}>
-        I've extensive work experience with ReactJS (
-        <a
-          href="https://stackoverflow.com/users/story/4230220?view=Timeline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          among top 10% in StackOverflow
-        </a>
-        ), NodeJS/ ExpressJS, Ruby on Rails, MongoDB and MySQL.
-      </h2>
-      <p style={{ fontSize: "1.2em" }}>
-        I'm fascinated about new technologies, and love to add them to my
-        arsenal for timely disposal. More than happy to learn stuff to improve
-        projects that I'm working on.{" "}
-      </p>
-      <p style={{ fontSize: "1.2em" }}>
-        I've also worked with{" "}
-        <ReactRotatingText
-          items={[
-            "Lambda Functions",
-            "VueJS",
-            "Python",
-            "Pandas",
-            "PHP",
-            "Bash",
-            "Firebase",
-            "AWS API Gateway",
-            "Heroku",
-            "Netlify",
-            "Zeit Now",
-            "Gatsby",
-            "NextJS"
-          ]}
-        />
-      </p>
-      <BlogPosts />
-    </Container>
+          ), NodeJS/ ExpressJS, Ruby on Rails, MongoDB and MySQL.
+        </h2>
+        <p style={{ fontSize: "1.2em" }}>
+          I'm fascinated about new technologies, and love to add them to my
+          arsenal for timely disposal. More than happy to learn stuff to improve
+          projects that I'm working on.{" "}
+        </p>
+        <p style={{ fontSize: "1.2em" }}>
+          I've also worked with{" "}
+          <ReactRotatingText
+            items={[
+              "Lambda Functions",
+              "VueJS",
+              "Python",
+              "Pandas",
+              "PHP",
+              "Bash",
+              "Firebase",
+              "AWS API Gateway",
+              "Heroku",
+              "Netlify",
+              "Zeit Now",
+              "Gatsby",
+              "NextJS"
+            ]}
+          />
+        </p>
+        <BlogPosts />
+      </Container>
+    </Fragment>
   );
 };
 
